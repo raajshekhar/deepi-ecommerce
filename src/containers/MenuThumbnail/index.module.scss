@@ -1,0 +1,29 @@
+.menuThubnail {
+    width: 80vw;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-evenly;
+    min-height: 300px;
+    align-items: center;
+    background: #c59987;
+    color: #fff;
+    font-size: 40px;
+    text-transform: capitalize;
+    font-weight: 100;
+    a {
+        display: flex;
+        flex-direction: column;
+        border-bottom: 2px solid transparent;
+        padding: 40px 0px;
+        margin-bottom: 10px;
+        img {
+            width: 100px;
+            height: 100px;
+        }
+    }
+    a:hover {
+        border-bottom: 2px solid;
+        color: #000;
+        transition: color .6s ease;
+    }
+}

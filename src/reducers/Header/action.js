@@ -1,0 +1,2 @@
+export const SET_SITE_NAME = 'SET_SITE_NAME';
+export const SET_SITE_DETAILS = 'SET_SITE_DETAILS';

@@ -1,0 +1,8 @@
+.bannerSection {
+    clear: both;
+    margin: 0px auto;
+    > div:first-child {
+        width: 90vw;
+        margin: 0px auto !important;
+    }
+}
