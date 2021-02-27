@@ -8,6 +8,11 @@ const runtimeCaching = require('next-pwa/cache')
 const nextConfig = {};
 
 
-module.exports = withPlugins([withImages({
-  target: 'serverless'
-})], nextConfig);
+module.exports = withPlugins([withPWA(withImages({
+  target: 'serverless',
+  pwa: {
+    dest: 'public',
+    register: true,
+    runtimeCaching
+  }
+}))], nextConfig);
