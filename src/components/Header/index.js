@@ -8,7 +8,7 @@ const Header = () => {
         <div className={style.header}>
             <div className={style.innerWrapper}>
                 <a href="/" className={style.logo}>
-                    Deepika Ecommerce
+                    Lasya Collections
                 </a>
                 <div className={style.headerRight}>
                     <a className="active" href="/">Home</a>
