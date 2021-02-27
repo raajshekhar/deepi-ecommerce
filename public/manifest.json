@@ -1,0 +1,23 @@
+{
+    "theme_color": "#2196f3",
+    "background_color": "#2196f3",
+    "display": "browser",
+    "scope": "/",
+    "start_url": "/",
+    "description": "Fashion Saress & Jewelry",
+    "icons" : [
+        {
+            "src": "./logo.png",
+            "sizes": "512*512",
+            "type": "image/png"
+        }
+    ],
+    "shortcuts": [
+    {
+      "name": "Want to checkout latest trend sarees & jewelry",
+      "short_name": "sarees & jewelry",
+      "description": "Want to checkout latest trend sarees & jewelry Items available",
+      "url": "/?source=pwa",
+      "icons": [{ "src": "./logo.png", "sizes": "192x192" }]
+    }]
+  }

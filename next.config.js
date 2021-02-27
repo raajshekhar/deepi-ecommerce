@@ -3,6 +3,7 @@
 const webpack = require('webpack');
 const withImages = require('next-images');
 const withPlugins = require('next-compose-plugins');
+const withPWA = require('next-pwa');
 
 const nextConfig = {
   webpack: (config, { dev }) => {
@@ -15,7 +16,7 @@ const nextConfig = {
   }
 };
 
-module.exports = withPlugins([withImages({
+module.exports = withPlugins([withPWA(withImages({
   target: 'serverless',
   distDir: 'build'
-})], nextConfig);
+}))], nextConfig);
