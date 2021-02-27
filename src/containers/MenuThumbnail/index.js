@@ -8,7 +8,7 @@ const MenuThumbnail = () => {
     const thumbnails = [ { name: 'sarees', link: '/c/sarees', img: SareeImg }, { name: 'jewelry', link: '/c/jewelry', img: JewelryImg } ]
     return (
         <section className={style.menuThubnail}>
-            { thumbnails.map(data => <TextThumnail {...data} />) }
+            { thumbnails.map(data => <TextThumnail {...data} key={data.name} />) }
         </section>
     )   
 }
