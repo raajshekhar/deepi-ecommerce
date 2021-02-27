@@ -1,6 +1,5 @@
 import React from 'react';
 import Document, { Html, Head, Main, NextScript } from 'next/document';
-import siteImg from '../src/assests/images/banner-sarees-jewelry.png';
 
 class MyDocument extends Document {
   render() {
@@ -43,7 +42,7 @@ class MyDocument extends Document {
           <meta property='og:description' content='Latest Sarees & Jewelry' />
           <meta property='og:site_name' content='Lasya Collections' />
           <meta property='og:url' content='https://raajshekhar.github.io/deepi-ecommerce/' />
-          <meta property='og:image' content={siteImg} />
+          <meta property='og:image' content='https://deepi-ecommerce.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fimages%2Fbanner-sarees-jewelry-6bac243ad8860355b1111b373fb71bd1.png&w=640&q=100' />
 
         </Head>
         <body>
