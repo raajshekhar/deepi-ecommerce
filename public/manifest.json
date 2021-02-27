@@ -15,7 +15,7 @@
     "shortcuts": [
     {
       "name": "Want to checkout latest trend sarees & jewelry",
-      "short_name": "sarees & jewelry",
+      "short_name": "Lasya collections",
       "description": "Want to checkout latest trend sarees & jewelry Items available",
       "url": "/?source=pwa",
       "icons": [{ "src": "./logo.png", "sizes": "192x192" }]

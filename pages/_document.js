@@ -18,10 +18,17 @@ class MyDocument extends Document {
           <meta name='mobile-web-app-capable' content='yes' />
 
           {/* iOS */}
-          <meta name='apple-mobile-web-app-title' content='Deepika Ecommerce' />
+          <meta name='apple-mobile-web-app-title' content='Lasya Collections' />
           <meta name='apple-mobile-web-app-capable' content='yes' />
           <meta name='apple-mobile-web-app-status-bar-style' content='default' />
           <link rel="apple-touch-icon" href='/favicon.ico' />
+
+          <meta property='og:type' content='website' />
+          <meta property='og:title' content='Lasya Collections' />
+          <meta property='og:description' content='Latest Sarees & Jewelry' />
+          <meta property='og:site_name' content='Lasya Collections' />
+          <meta property='og:url' content='https://raajshekhar.github.io/deepi-ecommerce/' />
+          <meta property='og:image' content='https://github.com/raajshekhar/deepi-ecommerce/blob/main/src/assests/images/banner-sarees-jewelry.png' />
 
         </Head>
         <body>

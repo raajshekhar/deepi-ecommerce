@@ -13,12 +13,8 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <section>
           <Banner />
-        </section>
-        <section className="menuthumbnail-section">
           <MenuThumbnail />
-        </section>
       </main>
       <Footer />
     </div>

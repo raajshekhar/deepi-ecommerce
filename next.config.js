@@ -1,22 +1,14 @@
 'use strict';
 
-const webpack = require('webpack');
 const withImages = require('next-images');
 const withPlugins = require('next-compose-plugins');
 const withPWA = require('next-pwa');
+const runtimeCaching = require('next-pwa/cache')
 
-const nextConfig = {
-  webpack: (config, { dev }) => {
-    config.module.rules.push({
-      test: /\.(raw)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
-      use: 'raw-loader'
-    });
+const nextConfig = {};
 
-    return config;
-  }
-};
 
-module.exports = withPlugins([withPWA(withImages({
+module.exports = withPlugins([withImages({
   target: 'serverless',
   distDir: 'build'
-}))], nextConfig);
+})], nextConfig);
