@@ -9,6 +9,5 @@ const nextConfig = {};
 
 
 module.exports = withPlugins([withImages({
-  target: 'serverless',
-  distDir: 'build'
+  target: 'serverless'
 })], nextConfig);
